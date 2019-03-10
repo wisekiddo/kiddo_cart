@@ -643,8 +643,8 @@ class _LoginPageState extends State<LoginPage>
                   ],
                   gradient: new LinearGradient(
                       colors: [
-                        Theme.Colors.loginGradientEnd,
-                        Theme.Colors.loginGradientStart
+                        Theme.Colors.loginButtonStart,
+                        Theme.Colors.loginButtonEnd
                       ],
                       begin: const FractionalOffset(0.2, 0.2),
                       end: const FractionalOffset(1.0, 1.0),
