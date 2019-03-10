@@ -190,7 +190,7 @@ class _LoginPageState extends State<LoginPage>
             fontSize: 16.0,
             fontFamily: "WorkSansSemiBold"),
       ),
-      backgroundColor: Colors.blue,
+      backgroundColor: Theme.Colors.loginButtonEnd,
       duration: Duration(seconds: 3),
     ));
   }
